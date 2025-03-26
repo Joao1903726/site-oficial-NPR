@@ -1,0 +1,27 @@
+body {
+    height: 100vh; /* Faz o corpo ocupar toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin: auto;
+}
+
+.energia {
+      
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #fbf7f7;
+    text-align: center;
+   
+
+}
+
+.b {
+    color: #f5ebeb;
+    font-size: large;
+    font: weight 120px;
+    margin: 25px 50px 75px 100px;
+}

@@ -1,0 +1,50 @@
+
+  .image-item {
+    color: #f0eded;
+  }
+
+.strip {
+    width: 100%;
+    background-image: url("luz.png");
+    background-size: cover;
+    background-position: center;
+    height: 122px; /* Altura da faixa */
+    width: 78%; /* Definindo a largura da faixa como 100% da largura da tela */
+    padding: 170px;
+    background-attachment:scroll;
+}
+
+  
+  
+      .fname  {  
+        text-align: center;
+        }
+  
+ 
+
+  
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
+.slider {
+  display: block;
+  height: 293px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+.slider li {
+  list-style: none;
+  position: absolute;
+}
+.slider img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+}

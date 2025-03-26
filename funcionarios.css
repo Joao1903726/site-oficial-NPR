@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+p {
+color: rgb(245, 245, 245);
+font-family: Arial, sans-serif;
+}
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+  }
+     
+  
+     
+      div.b {
+          line-height: 1.6;
+        }
+        .w3-circle {
+          top: auto;
+      
+      }
+      
+      .image-list {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+      }
+      
+      .image-item {
+          text-align: center;
+          margin: 9px;
+          font: weight 100px;
+      }
+      .imagem-redonda {
+          border-radius: 50%; /* Formato circular */
+          width: 150px; /* Largura da imagem */
+          height: 150px; /* Altura da imagem */
+      }
+      .image-item p {
+          margin-top: 10px; /* Espaço entre a imagem e o texto */
+      }
+      .image-list {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+      }

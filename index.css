@@ -1,0 +1,86 @@
+body {
+  background-color: #000000;
+  text-align: left;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: auto;
+  margin: auto;
+}
+.container {
+  display: inline-flex;
+  background: linear-gradient(to right, #333232, #000000);
+}
+
+.imagem-redonda {
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: 50px; /* Ajuste o tamanho conforme necessário */
+  border-radius: 50%;
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+  margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/* Nome da empresa */
+.titulo {
+  font-size: 25px; /* Tamanho medio */
+  font-weight: bold;
+  color: #f3f3f3;
+}
+
+.atalhos a {
+  margin-left: auto; /* Mover atalhos para a direita */
+  display: flex; /* Exibir atalhos em uma linha */text-decoration: none;
+  color: white;
+  margin: 29px; /* Espaço entre os atalhos */
+}
+
+/* Menu de navegação */
+.atalhos {
+  text-align: center;
+  margin-left: auto; /* Mover atalhos para a direita */
+  display: flex;
+  flex-direction: row;
+  margin-left: 478px; /* Aumente o valor para mover mais para a direita */
+}
+
+ .quadrados {
+  display: flex; /* Alinha os cards em linha */
+  justify-content: auto;
+  gap: 50px; /* Espaço entre os cards */
+  padding: 10px; /* Espaçamento externo */
+}
+
+/* Estilização dos cards */
+.card {
+  width: 70%; /* Largura de todos os card iguais */
+  max-width: 10000px;
+  border-radius: 10px;
+  border: 2px solid #474646;
+  background-color: #000000;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+/* Estilização da imagem dentro do card */
+.card img {
+  width: 89%; /* Para ocupar toda a largura do card */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+  
+  .FIBRA{
+      color: white
+
+  }
+
+  .resumo {
+      color: rgb(248, 248, 248);
+  }
+  
+
+
+
+
+
